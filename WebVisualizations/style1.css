@@ -1,0 +1,142 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 150%;
+    color: #333;
+    background:rgb(224, 223, 223);
+  }
+  
+  header {
+    background: white;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: rgb(85, 180, 180);
+    text-align: left;
+    font-weight: 800;
+  }
+  h2 {
+    padding: 20px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: rgb(85, 180, 180);
+    text-align: left;
+    font-weight: 600;
+  }
+  .post {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-right: 20px;
+  }
+  
+  /* Nav Bar*/
+  
+  .navbar-brand{
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(85, 180, 180);
+    }
+  .navbar{
+    max-height: 200px;
+    background-color: white;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    border-bottom-style: solid; 
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(85, 180, 180);
+  }
+  .navbar li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    
+  }
+  .navbar li a {
+    color: rgb(100, 99, 99);
+    text-decoration: none;
+  }
+  
+
+  /*Containers & Rows*/
+  .box {
+    min-height: 100%;
+    padding: 10px;
+    margin: 10px;
+    background: white;
+    font-weight: 100;
+    font-size: 18px;
+    color:rgb(100, 99, 99);
+    width: relative;
+  }
+  ul {
+	text-align: center;
+}
+   
+  .frame {
+    border: 3px solid rgb(85, 180, 180);
+  }
+  
+ 
+  /*Images*/
+
+  #image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+  }
+    
+  #image2 {
+    width: 110px;
+    height: 110px;
+    margin-right: 20px;
+    float: left;
+  }
+
+  #graph-image {
+    width: 100%;
+    position: relative;
+  }
+  
+
+  /* footer */
+  
+  footer{
+    background-color:grey;
+    color:white ;
+    position:relative;
+    border-top-style: solid; 
+    border-top-width: 5px;
+    border-top-color: rgb(85, 180, 180);
+    min-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    }
+
+   
